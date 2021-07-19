@@ -19,13 +19,14 @@ const id = todo.id;
 const title = todo.title;
 const completed = todo.completed;
 
-console.log(`
+logTodo(id,title,completed);
+});
+
+const logTodo  = (id: number, title: String, completed: boolean) => {
+  console.log(`
     The Todo with ID: ${id}
     Has a title of: ${title}
     Is it finished? ${completed}
   `);
-
-
-})
-
+};
 
