@@ -5,3 +5,4 @@ nest.js 도입을 위해서 공부 중입니다.
 
 01 Getting Started with Typescript 07-20
 02 What is a Type System? 07-20
+03 Type Annotations in Action 07-21
